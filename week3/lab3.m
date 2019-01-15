@@ -260,9 +260,7 @@ legend("trajectory on t0", "van on t0", ...
 %     features. You may reuse the code generated for the previous question.
 %
 clear all;
-addpath('../week2');
-addpath('../week2/sift'); % ToDo: change 'sift' to the correct path where you have the sift functions
-
+  
 % Read images
 im1rgb = imread('Data/sequence3/view0_time0.jpg');
 im2rgb = imread('Data/sequence3/view0_time1.jpg');
